@@ -4,6 +4,6 @@ This was my first academic project in my graduate studies under course EE6325: V
 
 1.RTL Coding (Frontend part)
 2.Synthesis
-3.Layout designing (Backend part) (With a sub-part where aim was to minimize the Energy-Delay Product while minimizing the cell area)
-4.Library creation and synthesis using it
-5.Routing, floorplanning and Static Time Analysis (STA).
+3.Layout designing (Backend part) 
+4.Library creation 
+5.Routing, floorplanning and Static Time Analysis 
