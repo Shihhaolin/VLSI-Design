@@ -27,7 +27,8 @@ In this part, I am going to design gate cells. The tool I used for layout design
 ***4.Library creation (then use this libraty to Synthesis all needed gate)***  
 Using SiliconSmart ACE craeting a .lib file from the Cadence library which consist of all the required layouts.
 From this .lib file, creating the .db file using Library Compiler (LC shell).
-Then Using this library, synthesize the original verilog code to generate a new mapped netlist based on new library.
+Then Using this library, synthesize the original verilog code to generate a new mapped netlist based on new library.Creating a Library Exchange File (LEF) from the Cadence library and also its ASCII file.
+Another LEF file was created usign previously created LEF and ASCII file which will support Cadence Encounter.
 
 ***5.Routing, floorplanning and Static Time Analysis***  
 
