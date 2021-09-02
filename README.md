@@ -6,7 +6,7 @@ This was my first academic project in my graduate studies under course EE6325: V
 2.Synthesis  
 3.Layout designing (Backend part)   
 4.Library creation (then use this libraty to Synthesis all needed gate)  
-5.Routing, floorplanning and Static Time Analysis   
+5.Routing, floorplanning  
 
 
 &nbsp;
@@ -30,8 +30,8 @@ From this .lib file, creating the .db file using Library Compiler (LC shell).
 Then Using this library, synthesize the original verilog code to generate a new mapped netlist based on new library.Creating a Library Exchange File (LEF) from the Cadence library and also its ASCII file.
 Another LEF file was created usign previously created LEF and ASCII file which will support Cadence Encounter.
 
-***5.Routing, floorplanning and Static Time Analysis***  
-
+***5.Routing, floorplanning***  
+Cadence Encounter can do routing and floorplanning. the tool will generate mapped netlist and LEF file which I created by the previous step. After that, I can get the final layout of the system. Basically in the phase, the circuit is finished. There is only thing I need to do is exporting final layout from Cadence Virtuso by Data Extraction File (DEF). This file shows the detail information of the circuit. Cadence Virtuso can also create the final schematic view if needed.
 
 
 
