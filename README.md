@@ -8,6 +8,8 @@ This was my first academic project in my graduate studies under course EE6325: V
 4.Library creation (then use this libraty to Synthesis all needed gate)  
 5.Routing, floorplanning and Static Time Analysis   
 
+
+
 ***1.RTL codeing(Frontend part) ***  
 At first, I would trying to define what can of arbitary digital circuit I want to design in HDL(Hardware Description Langurage) form. For this project I chose The Arithmetic and Logic Unit (ALU) of two 32 bit inputs and one 33 bit output. It was able to welling performing 8 operations. There are two common HDL VHDL and Verilog. In this case, I used Verilog-HDL to design ALU. My behavioral code for this project is alu.v. Then create another testbench file with enough coverage to test my behavioral code. There are a lot of simulator in the world. I choose the Xilinx Vivado as my simulator. If anything is good, then we can go to next step.
 
