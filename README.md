@@ -25,7 +25,11 @@ The behavioral code is the code which for people to read and write. To design th
 In this part, I am going to design gate cells. The tool I used for layout designing is Cadence Virtuso and Schematic which can help me to complete Backend design. At the beginning, I started with the layout of inverter and schematic of inverter. By minimizing the size(the total area) of the cells after performing DRC(Design Rule Checker)/LVS(Layout vs. Schematic)/QRC and generate Spice netlist file(.sp file), I will get the (EDP)Energy-Delay Product value. Then keeping adjusting the cells's Wn((Width of the n-mos) and Wp((Width of the p-mos) to get the optimum EDP. Repeat the whole process to get all required cells such as NAND, NOR, D Flipflop,etc.
 
 ***4.Library creation (then use this libraty to Synthesis all needed gate)***  
-
+Using SiliconSmart ACE craeting a .lib file from the Cadence library which consist of all the required layouts.
+From this .lib file, creating the .db file using Library Compiler (LC shell).
+Then Using this library, synthesize the original verilog code to generate a new mapped netlist based on new library.
+Creating a Library Exchange File (LEF) from the Cadence library and also its ASCII file.
+Another LEF file was created usign previously created LEF and ASCII file which will support Cadence Encounter.
 
 
 
